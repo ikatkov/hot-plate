@@ -54,10 +54,10 @@ I had fun fine-tuning PID coefficients to get a fast response and avoid overshoo
 
 Assemble all these pieces together
 * Heating plate, [like this]("hot-plate.png")
-* IEC 320-C14 Receptacle, Male Blades, 2A+, panel mount, this is the socket at the back
+* IEC 320-C14 Receptacle, Male Blades, panel mount, this is the socket at the back
 * SPDT AC 250V switch, this is the main power switch
 * metal case with lot's of slots
-* 3d printed enclosure for display pcb, [picture]("display-board-case.png") , [STEP file]("display-case.step")
+* 3d printed enclosure for display pcb, [picture](display-board-case.png) , [STEP file](display-case.step)
 * two pcbs, see below
 * M3 screews, washers, stand-outs, kapton tape, 14AWG wire for mains, thermocouple wire, IDC ribbon, silicon antiskid pads
 
