@@ -10,7 +10,7 @@
 
 The heating is not uniform (enough?). The father points of the hotplate are ~5C colder than the center, where the ceramic heating element is located. Typically, one would expect it to even out, but due to the high temperature of operation (150C-200C), fringes lose heat at a higher rate. 
 
-A typical PCB is made of FR4 glass-reinforced epoxy resin laminate, turns out it's a decent insulator. However, the top side of the PCB is ~25C colder than the hotplate surface. Perhaps lots of plated vias would transfer the heat better. Add this 25C if running the plate on manual control. Adjust reflow profile accordingly.
+A typical PCB is made of FR4 glass-reinforced epoxy resin laminate, turns out it's a decent insulator. As the result, the top side of the PCB is ~25C colder than the hotplate surface. Perhaps lots of plated vias would transfer the heat better. Add this 25C if running the plate on manual control. Adjust reflow profile accordingly.
 
 If FR4 start to smoke - it's way too hot or too hot for way too long. If that has happened, the FR4 substrate has likely expanded already. So it might have ruined your impedance-controlled traces. 
 
@@ -70,7 +70,7 @@ The main pcb (power board) has a MOV and a 2A fuse. MCU is on isolated supply.
 
 ### Thermal 
 
-Powerboard pcb has 85C thermal fuse to protect AC-DC convertor, wires and other electornic components. Thermerature gradient below the hot plate is quite significant. When the hot plate is at +200C, the tallest point of the PCB, and thus the closest point to the hot measures +45C, with +20C ambient.
+Powerboard pcb has 85C thermal fuse to protect AC-DC convertor, wires and other electornic components. The temperature gradient below the hot plate is quite significant. When the hot plate is at +200C, the tallest point of the PCB, and thus the closest point to the hot measures +45C, with +20C ambient.
 
 Arduino PID firmware limits (software) hotplate max temperature to +230C, the heating plate has +260C thermostat inside. Firmware also limits heating to 30min max.
 
