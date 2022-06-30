@@ -119,5 +119,6 @@ Arduino PID firmware limits (software) hotplate max temperature to +230C, the he
 <img src="./display-board-case.png" width="300"> 
 
 [STEP file]("display-case.step")
+.
 
 
